@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #6b9765, #5c8b62);
+    color: #517446;
+}
+
+.container{
+    margin: 0 15px;
+}
+
+.form-box{
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.form-box.active{
+    display: block;
+}
+
+h2{
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input,
+select{
+    width: 100%;
+    padding: 12px;
+    background: #eee;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.lembrar-me{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.lembrar-me input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+    cursor: pointer;
+    position: relative;
+    top: 1px;
+}
+
+.lembrar-me label {
+    font-size: 14.5px;
+    color: #333;
+    cursor: pointer;
+    line-height: 1px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    background: #3f772d;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+button:hover{
+   background: #517446;
+}
+
+p{
+    font-size: 14.5px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+p a{
+    color: #5e7762;
+    text-decoration: none;
+}
+
+p a:hover{
+    text-decoration: underline;
+}
